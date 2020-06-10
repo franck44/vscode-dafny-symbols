@@ -2,12 +2,25 @@
 	"name": "dafny-symbols",
 	"displayName": "dafny-symbols",
 	"description": "Provide document symbols goto",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
+	"publisher" : "franck44",
+	"author": {
+        "name": "Franck Cassez",
+        "email": "francksquash@gmail.com",
+        "url": "https://github.com/franck44"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/franck44/vscode-dafny-symbols",
+    "bugs": "https://github.com/franck44/vscode-dafny-symbols/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/franck44/vscode-dafny-symbols"
+    },
 	"categories": [
-		"Other"
+		"Programming languages"
 	],
 	"activationEvents": [
 		"onLanguage:dafny"
