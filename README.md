@@ -20,7 +20,7 @@ Newicons to identify logical/proof components would probably help.
 
 Users appreciate release notes as you update your extension.
 
-### 0.0.1
+### 1.0.0
 
-Initial release of thsi extension
+Initial release of this extension
 
