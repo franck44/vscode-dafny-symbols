@@ -1,10 +1,10 @@
-# VSCode symbols provider for ther Dafny language
+# VSCode symbols provider for the Dafny language
 
 This extension provides support for collecting symbols in Dafny programs (variables, functions, lemmas).
 
 ## Features
 
-Symbols can be obtained via the command pallette command-shift-O and used to populate the outline panel.
+Symbols can be obtained via the command palette command-shift-O or from the *outline* panel.
 
 
 ## Known Issues
@@ -23,4 +23,3 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 Initial release of this extension
-
