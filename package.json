@@ -6,7 +6,7 @@
 	"engines": {
 		"vscode": "^1.45.0"
 	},
-	"publisher" : "franck44",
+	"publisher" : "Franck Cassez",
 	"author": {
         "name": "Franck Cassez",
         "email": "francksquash@gmail.com",
