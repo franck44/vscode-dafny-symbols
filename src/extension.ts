@@ -62,7 +62,7 @@ class DafnyDocumentSymbolProvider2 implements vscode.DocumentSymbolProvider {
                     //  current line is part of a comment
                     nonCommentPart = "";
                 }
-                // find consts
+                // find constants
                 let constNames : RegExp  = /(?<=(const|var))\s*\b(\w+)\b/;
                 var s = constNames.exec(nonCommentPart);
                 if (s != null ) {
@@ -77,7 +77,7 @@ class DafnyDocumentSymbolProvider2 implements vscode.DocumentSymbolProvider {
                 };
 
                 //  find function names
-                let funNames : RegExp  = /(?<=(function\s+method|method|function|lemma|predicate))\b\s*[{}:\w\s]*\b([\w]+)\s*(\(|\<)/;
+                let funNames : RegExp  = /(?<=(function\s+method|method|function|lemma|predicate))\b\s*[{}:,\w\s]*\b([\w]+)\s*(\(|\<)/;
                 var s = funNames.exec(nonCommentPart);
                 if (s != null ) {
                     let symbolInfo = new vscode.SymbolInformation(
